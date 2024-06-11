@@ -1,0 +1,48 @@
+﻿@charset "UTF-8";
+*{ margin:0; padding:0;}
+body{font-size:14px; background:#a3deee}
+ul{ list-style:none;}
+a{text-decoration:none;}
+/*头部*/
+.header{width:100%;overflow:hidden;background:#0092d2;}
+.header .top{width:1000px;margin:auto;}
+.header .top img{display:block;width:100%;}
+.header .nav{ width:100%;height:40px; background:#074e7b; line-height:40px;}
+.header .nav ul{width:1000px;margin:auto;}
+.header .nav li{float:left;margin-right:20px;}
+.header .nav li a{color:#fff;display:block;width:100px;height:40px;text-align:center;}
+.header .nav li a:hover{ color:#074e7b; background:#fff;}
+.nav_c{  width:1000px; margin:0px auto;}
+#top_t{ width:100%; height:26px; background:url(images/img1.jpg) repeat-x left top;}
+.top_tu{ width:1024px; height:120px; margin:0 auto; background:url(images/img4.jpg) no-repeat;}
+.top_left{ width:213px; height:118px; margin-top:1px; float:left;}
+.top_right{ width:283px; height:120px; margin-left:100px; float:left;}
+/*中间内容*/
+.main{ width:1000px;margin:auto;overflow:hidden;}
+.main_left{width:150px;float:left;}
+.main_left .cont{width:120px;height:290px;padding:10px;line-height:26px;color:#000;background:#fff;border:5px solid #9eca6c;margin-top:45px;margin-bottom:10px;overflow:hidden;}
+.main_left .cont h2{font-size:16px;color:#9eca6c;text-align:center;}
+.main_left .cont li a{ display:block; width:120px; height:33px; background:#9eca6c; margin:10px 0px; font-size:14px; font-weight:bold;  line-height:33px; text-align:center; color:#fff;}
+.main_left .cont li a:hover{ background:#578028;}
+.main_right{ width:800px;float:left;margin-left:50px;}
+.main_right .jianjie h1{height:45px;text-align:center;line-height:45px;font-size:18px;font-weight:bold;color:#074e7b;}
+.main_right .jianjie img{width:800px;}
+.main_right .jianjie p{line-height:2;text-indent:28px;}
+/*底部*/
+.footer{width:1000px;margin:auto;margin-top:20px;color:#fff;border-top:1px solid #5d9aab;text-align:center;line-height:30px;}
+/*景点页面*/
+.jingdian{background:#fff;padding:20px;margin-top:45px;overflow:hidden;}
+.jingdian h2{text-align:center;}
+.jingdian p{line-height:2;text-indent:28px;}
+.jingdian img{display:block;margin:10px auto;max-width:100%;}
+/*西安美食*/
+.meishi{padding:5px;background:#fff;overflow:hidden;margin-top:45px;}
+.meishi h2{text-align:center;}
+.meishi li{width:300px;float:left;margin:15px;}
+.meishi li img{width:300px;height:240px;}
+.meishi li p{text-align:center;}
+/*历史页面*/
+.lishi{background:#fff;padding:20px;margin-top:45px;overflow:hidden;}
+.lishi h2{text-align:center;}
+.lishi p{line-height:2;text-indent:28px;}
+.lishi img{display:block;margin:10px auto;max-width:100%;}
